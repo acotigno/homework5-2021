@@ -93,8 +93,8 @@ nav a:hover, nav a:focus {
 .container{
   display:grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
-  grid-template-rows: [row-1]auto [row-2]auto [row-3]auto [row-4]auto;
-  row-gap: 20px;
+  grid-template-rows: auto auto auto auto;
+  grid-row-gap: 20px;
 }
 
 header{
@@ -156,7 +156,7 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
-  align-items: center;
+  align-self: center;
 }
 
 
